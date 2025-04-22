@@ -11,6 +11,7 @@ typedef struct {
     int pontos_turisticos;
 } Carta;
 
+
 // Função para calcular a densidade populacional
 float calcular_densidade_populacional(int populacao, float area) {
     return (float) populacao / area;
